@@ -1,7 +1,7 @@
 <script lang="ts">
   import StepEdit from "./components/StepEdit.svelte";
   import StepUpload from "./components/StepUpload.svelte";
-  import Footer from "./pages/Footer.svelte";
+  import Foot from "./pages/Foot.svelte";
   import Header from "./pages/Header.svelte";
   import { imageStatus } from "./store";
   import { ImageStatus } from "./types.d";
@@ -23,5 +23,5 @@
       {/if}
     </div>
   </main>
-  <Footer />
+  <Foot />
 </div>
