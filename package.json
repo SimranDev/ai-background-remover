@@ -1,0 +1,8 @@
+{
+  "name": "ai-bg-remover",
+  "version": "1.0.0",
+  "description": "Remove background for any image",
+  "main": "index.js",
+  "author": "Simran Singh",
+  "license": "MIT"
+}
