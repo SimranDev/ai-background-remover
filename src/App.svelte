@@ -7,13 +7,11 @@
   import { ImageStatus } from "./types.d";
 </script>
 
-<div
-  class=""
->
+<div>
   <Header />
   <main class="my-20">
-    <p class="text-3xl text-white font-mono text-center my-5">
-      Remove background of your photos. Easy, Simple and <strong class="text-6xl">FREE!!!</strong>
+    <p class="text-white text-center my-5">
+      A Svelte app built on top Cloudinary AI APIs to remove background from images
     </p>
     <div class="flex flex-col justify-center items-center my-10">
       {#if $imageStatus === ImageStatus.READY || $imageStatus === ImageStatus.UPLOADING}
